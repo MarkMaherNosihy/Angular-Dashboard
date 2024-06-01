@@ -5,5 +5,5 @@ import { StationsGraphComponent } from './stations-graph/stations-graph.componen
 export const routes: Routes = [
     {path: 'list', component: StationsListComponent},
     {path: 'graph', component: StationsGraphComponent},
-
+    {path: '**', redirectTo: 'list'}
 ];
