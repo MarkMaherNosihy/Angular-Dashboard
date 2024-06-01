@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="left-section">
+      <div class="cards">
+        <div class="card active-card">
+          <div class="stats">
+            <h1>71,028</h1>
+            <p>EGP</p>
+          </div>
+          <h3>Total Value</h3>
+          <div class="stats-change">
+            <div class="arrow-down"></div>
+            <p class="down">2%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="stats">
+            <h1>20,000</h1>
+            <p class="cubic">&#13221;</p>
+          </div>
+          <h3>Total Sales</h3>
+          <div class="stats-change">
+            <div class="arrow-up"></div>
+            <p class="up">50 &#13221;</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="stats">
+            <h1>20,000</h1>
+            <p class="cubic">&#13221;</p>
+          </div>
+          <h3>Avg Sales</h3>
+          <div class="stats-change">
+            <div class="arrow-down"></div>
+            <p class="down">50 &#13221;</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="stats">
+            <h1>1567</h1>
+          </div>
+          <h3>Total Transaction Count</h3>
+          <div class="stats-change">
+            <div class="arrow-up"></div>
+            <p class="up">20</p>
+          </div>
+        </div>
+      </div>
+      <div class="nav-wrapper">
+        <div class="navigation">
+            <button routerLinkActive="active" routerLink="/graph">
+                <img src="../../assets/graph.svg" alt="">
+                GRAPH
+            </button>
+          <button routerLinkActive="active" routerLink="/list">
+              <img src="../../assets/list.svg" alt="">
+              LIST
+          </button>
+        </div>
+      </div>
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <div class="right-section">
+      <app-radar-chart></app-radar-chart>
+      <app-sales></app-sales>
+    </div>
+  </div>
+</div>

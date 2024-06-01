@@ -1,0 +1,22 @@
+<div class="chart-container">
+  <div class="options">
+    <h3>stations activates overview</h3>
+    <div class="buttons">
+      <button class="active">sales</button>
+      <button>transaction</button>
+      <button>value</button>
+      <button>compression</button>
+    </div>
+  </div>
+  <div>
+    <canvas
+      baseChart
+      [data]="barChartData"
+      [options]="barChartOptions"
+      [type]="barChartType"
+      class="bar-chart"
+      height="300px"
+    >
+    </canvas>
+  </div>
+</div>

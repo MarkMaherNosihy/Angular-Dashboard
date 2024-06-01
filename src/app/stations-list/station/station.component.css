@@ -1,0 +1,83 @@
+.container{
+    background-color: #FFFFFF;
+    padding: 1em 3em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+}
+
+.station-icon{
+    fill: #FF7F5C;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E0E7F1;
+    margin-bottom: 2em;
+
+}
+.station-name-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.station-name-wrapper h1{
+    font: normal normal bold 18px/22px Montserrat;
+    color: #3D5161;
+    letter-spacing: 1.8px;
+}
+.img-wrapper{
+    position: relative;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: #3D5161;
+    margin-bottom: 1.5em;
+
+}
+
+.content p{
+    font: normal normal medium 14px/18px Montserrat;
+}
+.content h3{
+    font: normal normal bold 12px/15px Montserrat;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #FF7F5C;
+}
+input[type="checkbox"]:checked{
+    background-color: #FF7F5C;
+}
+
+.prop-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1em;
+}
+.prop{
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+    font: normal normal bold 10px/11px Nunito Sans;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.custom-menu{
+    width: 430px;
+
+}
+::ng-deep.mat-mdc-menu-panel {
+    max-width: unset !important;  
+  }

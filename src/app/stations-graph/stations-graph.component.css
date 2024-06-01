@@ -1,0 +1,46 @@
+.bar-chart{
+    padding: 2em;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 2em;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #3D5161;
+    border-bottom: 1px solid #E0E7F1;
+    padding-bottom: 1em;
+
+}
+
+.options h3{
+    font: normal normal bold 12px/15px Montserrat;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.options .buttons{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.options button{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font: normal normal bold 14px/18px Montserrat;
+    color: #3D5161;
+    cursor: pointer;
+}
+
+.options .buttons .active{
+    color: #FF7F5C;
+    border-bottom: 4px solid #FF7F5C;
+    border-radius: 4px;
+}

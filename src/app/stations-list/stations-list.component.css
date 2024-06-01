@@ -1,0 +1,15 @@
+.stations{
+    overflow-y: scroll;
+    height: 55vh;
+}
+.stations::-webkit-scrollbar {
+    width: 5px;
+  }
+
+.stations::-webkit-scrollbar-track{
+    background-color: #F4DBD4;
+}
+.stations::-webkit-scrollbar-thumb{
+    background-color:#FF7F5C ;
+    border-radius: 10px;
+}

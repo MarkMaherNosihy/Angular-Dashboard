@@ -1,0 +1,88 @@
+.card{
+    background-color: #FFFFFF;
+    max-width: 20%;
+    padding: 1em 2em;
+    color: #3D5161;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.card h1{
+    font: normal normal normal 40px/53px Roboto;
+}
+.cubic{
+    font-size: 30px;
+}
+.down{
+    color: #FF7F5C;
+}
+.up{
+    color: #00CBC0;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+.container{
+    padding-top: 130px;
+    margin-left: 115px;
+    height: 100%;
+}
+.left-section{
+    width: 70%;
+}
+.wrapper{
+    padding: 0 4em;
+    display: flex;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+.stats-change{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.nav-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 3em;
+}
+.navigation{
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    width: fit-content;
+    display: flex;
+    align-self: flex-end;
+}
+.navigation button{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 2em;
+    border-radius: 30px;
+    gap: 10px;
+    width: 150px;
+    cursor: pointer;
+    font: normal normal bold 14px/18px Montserrat;
+}
+.active{
+    background-color: #FF7F5C !important;
+    color: #FFFFFF;
+}
+.right-section{
+    width: 30%;
+}
+
+.active-card{
+    background-color: #F4DBD4;
+}

@@ -1,0 +1,43 @@
+<header>
+    <div class="monitored-stations">
+        <img src="../../assets/gas-station-svgrepo-com.svg" alt="">
+        <div class="stations-details">
+            <h3>2/3</h3>
+            <p>Monitored stations</p>
+        </div>
+        <div class="dot"></div>
+    </div>
+    <div class="monitored-stations">
+        <img src="../../assets/time.svg" alt="">
+        <div class="stations-details">
+            <h3>20s</h3>
+            <p>Last update</p>
+        </div>
+        <div class="dot"></div>
+    </div>
+    <div class="current-time">
+        <button class="active">TODAY</button>
+        <button>YESTERDAY</button>
+        <button>LAST WEEK</button>
+    </div>
+    <div class="date">
+        <div class="date-wrapper">
+            <mat-form-field>
+                <mat-label>Start date - time</mat-label>
+                <input matInput [matDatepicker]="start">
+                <mat-datepicker-toggle matIconSuffix [for]="start"></mat-datepicker-toggle>
+                <mat-datepicker #start></mat-datepicker>
+            </mat-form-field>
+            <div class="arrow-right"></div>
+        </div>
+        <div class="date-wrapper">
+            <mat-form-field>
+                <mat-label>End date - time</mat-label>
+                <input matInput [matDatepicker]="end">
+                <mat-datepicker-toggle matIconSuffix [for]="end"></mat-datepicker-toggle>
+                <mat-datepicker #end></mat-datepicker>
+            </mat-form-field>
+            <div class="square"></div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,82 @@
+canvas {
+    max-width: 600px;
+    max-height: 600px;
+    margin: auto;
+  }
+  
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h3{
+  color: #3D5161;
+  font: normal normal bold 20px/24px Montserrat;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.sales-by-station{
+  color: #3D5161;
+  font: normal normal bold 20px/24px Montserrat;
+  text-align: center;
+  padding-bottom: 3em;
+  
+}
+.canvas-container{
+  padding-bottom: 2em;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  padding-bottom: 2em;
+}
+.sales-by-station h3{
+  padding-bottom: 1em;
+}
+.station-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 4em;
+}
+.station-details .station-stats h3{
+  font: normal normal bold 16px/19px Montserrat;
+}
+.station-name h3{
+  font: normal normal bold 16px/19px Montserrat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+.station-name{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.progress{
+  height: 6px;
+  background: #F4DBD4 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  width: 100%;
+}
+.current-progress{
+  width: 30%;
+  border-radius: 10px;
+  background-color: #FF7F5C;
+  height: 6px;
+}
+.station:last-child{
+  padding-bottom: 0;
+}
+.station:last-child .progress{
+  background-color: #B9CDE2;
+}
